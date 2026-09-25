@@ -47,7 +47,7 @@ jobs:
             > "$CURRENT_ISSUE_FILE"
 
       - id: codex
-        uses: openai/codex-action@main
+        uses: openai/codex-action@86365089eb2b84e0a8fb0717b304f8bdcb13b20e
         with:
           openai-api-key: ${{ secrets.CODEX_OPENAI_API_KEY }}
           allow-users: "*"
